@@ -13,7 +13,7 @@ const Header = ({ currentUser }) => {
       return (
         <li key={href} className="nav-item">
           <Link key={href} href={href}>
-            {label}
+            <a className="nav-link">{label}</a>
           </Link>
         </li>
       );
